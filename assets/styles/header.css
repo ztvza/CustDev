@@ -32,7 +32,22 @@
 	align-items: center;
 }
 
+
+@media screen and ( max-width: 902px ) {
+
+	.header__link.-up.-none {
+		display: block;
+	}
+
+}
+
+
 @media screen and ( max-width: 767px ) {
+
+
+	.header__link.-up.-none {
+		display: block;
+	}
 
 	.header__nav {
 		display: none;
