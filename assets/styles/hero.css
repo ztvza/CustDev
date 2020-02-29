@@ -1,3 +1,40 @@
 .hero {
 	background-image: url("../img/image.png");
+	background-size: cover;
+	height: 680px;
+}
+
+.hero__info {
+	color: white;
+	margin-top: 88px;
+	width: 552px;
+	text-align: left;
+
+} 
+
+.hero__title {
+	font-size: 40px;
+	margin-top: 18px;
+	margin-bottom: 21px;
+}
+
+.hero__subtitle {
+	margin-bottom: 29px;
+}
+
+.hero__content {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 1px;
+}
+
+.hero__circle {
+	position: absolute;
+	width: 231px;
+	height: 231px;
+	border-radius: 50%;
+	left: 184px;
+	top: 444px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
