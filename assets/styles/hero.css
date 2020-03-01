@@ -38,3 +38,47 @@
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 }
+
+@media screen and ( max-width: 1120px ) {
+
+.hero__info {
+	color: white;
+	margin-top: 29px;
+	width: 400px;
+} 	
+
+.hero__circle {
+	left: 45px;
+	top: 417px;
+}
+
+.hero__title {
+	font-size: 36px;
+	margin-top: 18px;
+	margin-bottom: 21px;
+	}
+
+}
+
+@media screen and ( max-width: 767px ) {
+
+.hero__info {
+	color: white;
+	margin-top: 29px;
+	width: 400px;
+} 	
+
+.hero__circle {
+	left: 45px;
+	top: 417px;
+}
+
+}
+
+@media screen and ( max-width: 424px ) {
+
+.hero {
+	background-position: 50%;
+}
+
+}

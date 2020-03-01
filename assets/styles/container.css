@@ -3,10 +3,10 @@
 	margin: 0 auto;
 }
 
-@media screen and ( max-width: 1158px ) {
+@media screen and ( max-width: 1120px ) {
 
-	.container { max-width: 890px;
-	 }	
+	.container { max-width: 920px;
+	 }
 }
 
 @media screen and ( max-width: 902px ) {
@@ -14,13 +14,24 @@
 	.container {
 		max-width: 600px;
 	}
-
 }
 
 @media screen and ( max-width: 767px ) {
 
 .container {
-	max-width: 600px;
+	max-width: 500px;
+	}
 }
 
+
+@media screen and ( max-width: 424px ) {
+
+	.container {
+		max-width: 300px;
+	}
+
+	.hero__circle {
+    left: 90px;
+    top: 487px;
+	}
 }

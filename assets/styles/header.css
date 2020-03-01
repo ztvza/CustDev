@@ -33,10 +33,10 @@
 }
 
 
-@media screen and ( max-width: 902px ) {
+@media screen and ( max-width: 1120px ) {
 
 	.header__link.-up.-none {
-		display: block;
+		display: none;
 	}
 
 }
@@ -46,7 +46,7 @@
 
 
 	.header__link.-up.-none {
-		display: block;
+		display: none;
 	}
 
 	.header__nav {
@@ -72,3 +72,4 @@
 		width: 15px;
 	}
 }
+
