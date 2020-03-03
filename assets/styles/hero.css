@@ -1,6 +1,4 @@
 .hero {
-	background-image: url("../img/image.png");
-	background-size: cover;
 	height: 680px;
 }
 
@@ -29,14 +27,16 @@
 }
 
 .hero__circle {
+	padding: 60px;
 	position: absolute;
 	width: 231px;
 	height: 231px;
 	border-radius: 50%;
-	left: 184px;
-	top: 444px;
+	left: 50px;
+	top: 550px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	text-align: center;
 }
 
 @media screen and ( max-width: 1120px ) {
