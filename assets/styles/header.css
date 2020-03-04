@@ -25,10 +25,10 @@
 }
 
 .triangle {
-border: 3.5px solid transparent;
-border-top: 7px solid white;
-width: 0;
-height: 0;
+	border: 3.5px solid transparent;
+	border-top: 7px solid white;
+	width: 0;
+	height: 0;
 }
 
 .header__link {
@@ -69,11 +69,16 @@ height: 0;
 
     .header__cities {
     margin-right:20px;
+    margin-left: 0px;
     }
 }
 
 
 @media screen and ( max-width: 767px ) {
+
+	.header__cities {
+    margin-left: 0px;
+	}
 
 	.header__link.-up.-none {
 		display: none;
@@ -103,7 +108,7 @@ height: 0;
 	}
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 464px) {
 	
 	.header__cities {
 		margin-left: 0;
