@@ -3,6 +3,11 @@
 	margin: 0 auto;
 }
 
+.container.-flex {
+	align-items: center;
+	display: flex;
+}
+
 @media screen and ( max-width: 1120px ) {
 
 	.container { max-width: 920px;
@@ -18,8 +23,12 @@
 
 @media screen and ( max-width: 767px ) {
 
-.container {
-	max-width: 500px;
+	.container {
+		max-width: 500px;
+	}
+
+	.container.-flex {
+		flex-direction: column;
 	}
 }
 

@@ -1,8 +1,7 @@
 .hero {
+	margin-bottom: 150px;
 	height: 680px;
 }
-
-
 
 .hero__info {
 	color: white;
