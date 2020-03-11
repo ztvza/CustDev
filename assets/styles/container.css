@@ -19,9 +19,12 @@
 	.container {
 		max-width: 600px;
 	}
+	.container.-flex{
+		justify-content: space-around;
+	}
 }
 
-@media screen and ( max-width: 767px ) {
+@media screen and ( max-width: 790px ) {
 
 	.container {
 		max-width: 500px;

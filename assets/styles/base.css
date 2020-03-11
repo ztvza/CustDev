@@ -3,12 +3,6 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	padding: 0;
 	font-family: "Trebuchet MS";
 }
-body {
-	background-image: url("../img/hero_bg.png");
-	background-size: 100vw;
-	background-repeat: no-repeat;
-	background-position-x: 43%
-}
 
 img {
 	max-width: 100%;
@@ -20,20 +14,4 @@ img {
 
 a {
 	text-decoration: none;
-}
-
-@media screen and ( max-width: 464px ) {
-	
-	body{
-	background-size: 170%;
-}
-}
-
-@media screen and ( max-width: 767px ) {
-	
-	body{
-	background-size: 225vw;
-	background-image: url("../img/hero_bg_mobile.png");
-
-}
 }

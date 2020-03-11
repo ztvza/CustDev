@@ -29,14 +29,23 @@
 	font-size: 24px;
 }
 
-
 .text {
 	margin-top: 15px;	
 	color: #636363;
 	line-height: 143.55%;	
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 790px) {
+
+	.interest {
+    font-size: 20px;
+	}
+
+	.title {
+		text-align: center;	
+		padding-left: 45px;
+		margin-bottom: 30px;
+	}
 
 	.block {
 		padding-right: 10px;
@@ -47,8 +56,56 @@
 
 @media screen and (max-width: 676px) {
 
-	.block {
+	.block {		
 		min-width: 100%;
 	}
 
+}
+
+@media screen and (max-width: 1120px) {
+	
+.subunit {
+	padding-top: 17px;
+	padding-left: 19px;
+	width: 265px;
+    height: 150px;
+}
+
+.block {
+	min-width: 558px;
+}
+}
+
+@media screen and (max-width: 574px) {
+
+.block{
+	display: flex;
+	justify-content: space-around;
+    min-width: 436px;
+}
+
+.subunit {
+	padding-top: 40px;
+    padding-left: 41px;
+    padding-right: 41px;
+    height: 216px;
+	width: 380px;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	
+.block{
+	min-width: 304px;
+}
+
+.title {
+	text-align: center;	
+	padding-right:0px;
+	padding-left: 0px;
+}
+
+.subunit {
+width: 310px;
+}
 }

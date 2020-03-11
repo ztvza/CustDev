@@ -68,8 +68,12 @@
 @media screen and ( max-width: 902px ) {
 
     .header__cities {
-    margin-right:20px;
-    margin-left: 0px;
+    	margin-right: 10px;
+    	margin-left: 0px;
+    }
+
+    .header__link {
+    	margin-right: 7px; 
     }
 }
 

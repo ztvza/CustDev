@@ -1,4 +1,8 @@
 .hero {
+	background-image: url("../img/hero_bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 43%
 	margin-bottom: 150px;
 	height: 680px;
 }
@@ -58,44 +62,55 @@
 
 @media screen and ( max-width: 1120px ) {
 
-.hero__info {
-	color: white;
-	margin-top: 29px;
-	width: 400px;
-} 	
+	.hero {
+		background-repeat: no-repeat;
+		background-position-x: 43%
+	}
 
-.hero__circle {
-	left: 45px;
-	top: 417px;
-}
+	.hero__info {
+		color: white;
+		margin-top: 29px;
+		width: 400px;
+	} 	
 
-.hero__title {
-	font-size: 36px;
-	margin-top: 18px;
-	margin-bottom: 21px;
+	.hero__circle {
+		left: 45px;
+		top: 417px;
+	}
+
+	.hero__title {
+		font-size: 36px;
+		margin-top: 18px;
+		margin-bottom: 21px;
 	}
 
 }
 
 @media screen and ( max-width: 767px ) {
 
-.hero__info {
-	color: white;
-	margin-top: 29px;
-	width: 400px;
-} 	
+	.hero {
+		background-repeat: no-repeat;
+	}
 
-.hero__circle {
-	left: 45px;
-	top: 417px;
-}
+	.hero__info {
+		color: white;
+		margin-top: 29px;
+		width: 400px;
+	} 	
+
+	.hero__circle {
+		left: 45px;
+		top: 417px;
+	}
 
 }
 
 @media screen and ( max-width: 464px ) {
 
-.hero {
-	background-position: 50%;
-}
+	.hero {
+		margin-bottom: 76px;
+		background-repeat: no-repeat;
+	}
+
 
 }

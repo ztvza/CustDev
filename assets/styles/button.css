@@ -10,7 +10,7 @@
 }
 
 .button.-light {
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 .button.-light.-none.-white {
@@ -21,8 +21,14 @@
 
 @media screen and ( max-width: 767px ) {
 
-.button.-light.-none {
-	display: none;
+	.button.-light.-none {
+		display: none;
+	}
 }
 
+@media screen and ( max-width: 902px ) {
+
+	.button.-light.-none.-white {
+		margin-left: 0px;
+	}
 }
