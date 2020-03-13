@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-position-x: 43%
 	margin-bottom: 150px;
-	height: 680px;
+	height: 945px;
 }
 
 .hero__info {
@@ -60,10 +60,18 @@
 	font-size: 12px;
 }
 
+
+
+@media screen and ( max-width: 1440px) {
+	
+	.hero {
+		height: 680px;
+	}
+} 
+
 @media screen and ( max-width: 1120px ) {
 
 	.hero {
-		background-repeat: no-repeat;
 		background-position-x: 43%
 	}
 

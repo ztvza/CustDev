@@ -4,11 +4,28 @@
 	line-height: 1.5;
 }
 
-.block{
+.title.-center {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.block {
 	justify-content: space-between;
 	display: flex;
 	flex-wrap: wrap;
 	min-width: 666px;
+}
+
+.block.-wrap {
+
+}
+
+.bg {
+	background-image: url("../img/Rectangle.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	padding-top: 50px;
 }
 	
 .subunit {
@@ -24,6 +41,15 @@
 	height: 190px;	
 }
 
+.who {
+	width: 225px;
+}
+
+.subtitle{
+	font-size: 16px;
+	color: #2F80ED;
+}
+
 .interest {
 	color: #2F80ED;
 	font-size: 24px;
@@ -35,16 +61,42 @@
 	line-height: 143.55%;	
 }
 
+@media screen and (max-width: 902px) {
+
+	.block.-wrap {
+		flex-wrap: unset;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	.bg {
+		background-position-x: 8%; 
+		padding-left: 30px; 
+		height: 600px;
+	}
+
+	.block.-wrap {
+		flex-wrap: unset;
+	}
+
+}
+
 @media screen and (max-width: 790px) {
 
 	.interest {
-    font-size: 20px;
+    	font-size: 20px;
 	}
 
 	.title {
 		text-align: center;	
 		padding-left: 45px;
 		margin-bottom: 30px;
+	}
+
+	.title.-center {
+		padding-right: 0px;
 	}
 
 	.block {
@@ -74,14 +126,44 @@
 .block {
 	min-width: 558px;
 }
+
+.who {
+	margin-right: 15px;
+}
+
+.block.-wrap {
+	min-width: none;
+}
+}
+
+@media screen and (max-width: 1020px) {
+
+.bg {
+	padding-left: 
+}
+
 }
 
 @media screen and (max-width: 574px) {
 
-.block{
+.block {
 	display: flex;
 	justify-content: space-around;
     min-width: 436px;
+}
+
+.block.-wrap {
+	display: block;
+}
+
+.bg {
+	padding-top: 50px;
+	height: 535px;
+	background-position-x: 7%;
+}
+
+.who {
+	margin-bottom: 30px;
 }
 
 .subunit {
@@ -90,13 +172,26 @@
     padding-right: 41px;
     height: 216px;
 	width: 380px;
-	}
+}
+
+.who {
+    margin-left: 135px;
+}
+
+.bg {
+	height: 840px;
+	background-position-x: 43%;
+}
+
+.block {
+	min-width: 304px;
+}
 }
 
 @media screen and (max-width: 464px) {
-	
-.block{
-	min-width: 304px;
+
+.who {
+    margin-left: 45px;
 }
 
 .title {
@@ -106,6 +201,6 @@
 }
 
 .subunit {
-width: 310px;
+	width: 310px;
 }
 }
