@@ -17,7 +17,7 @@
 	min-width: 666px;
 }
 
-.contant {
+.content {
 	display: flex;
 	flex-wrap: wrap;
 	width: 550px;
@@ -137,7 +137,7 @@
 		min-width: 558px;
 	}
 
-	.contant {
+	.content {
 		min-width: 450px;
 	}
 
@@ -205,5 +205,8 @@
 
 .subunit {
 	width: 310px;
+}
+.content {
+	width: min-content;
 }
 }
