@@ -6,6 +6,8 @@
 .container.-flex {
 	align-items: center;
 	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 125px;
 }
 
 .container.-smoll {
@@ -14,7 +16,8 @@
 
 @media screen and ( max-width: 1120px ) {
 
-	.container { max-width: 920px;
+	.container { 
+		max-width: 890px;
 	 }
 }
 
@@ -23,19 +26,23 @@
 	.container {
 		max-width: 600px;
 	}
-	.container.-flex{
-		justify-content: space-around;
+
+	.container.-flex {
+		flex-direction: column;
 	}
 }
 
 @media screen and ( max-width: 790px ) {
 
 	.container {
-		max-width: 500px;
+		max-width: 550px;
 	}
+}
 
-	.container.-flex {
-		flex-direction: column;
+@media screen and (max-width: 574px ){
+	
+	.container {
+		max-width: 410px;
 	}
 }
 
@@ -47,7 +54,7 @@
 	}
 
 	.hero__circle {
-    left: 90px;
-    top: 487px;
+    	left: 90px;
+   		top: 487px;
 	}
 }

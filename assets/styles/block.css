@@ -5,7 +5,8 @@
 }
 
 .title.-center {
-	margin-bottom: 35px;
+	margin-top: 35px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
@@ -16,8 +17,11 @@
 	min-width: 666px;
 }
 
-.block.-wrap {
-
+.contant {
+	display: flex;
+	flex-wrap: wrap;
+	width: 550px;
+	justify-content: space-evenly;
 }
 
 .bg {
@@ -26,6 +30,7 @@
 	background-size: cover;
 	height: 600px;
 	padding-top: 50px;
+	background-position-x: 16%;
 }
 	
 .subunit {
@@ -41,8 +46,14 @@
 	height: 190px;	
 }
 
+.subunit.-padding {
+	padding: 40px;
+	height: 190px;
+}
+
 .who {
-	width: 225px;
+	margin-bottom: 40px;
+	width: 200px;
 }
 
 .subtitle{
@@ -55,6 +66,10 @@
 	font-size: 24px;
 }
 
+.interest.-smoll {
+	font-size: 18px;
+}
+
 .text {
 	margin-top: 15px;	
 	color: #636363;
@@ -65,6 +80,12 @@
 
 	.block.-wrap {
 		flex-wrap: unset;
+	}
+
+	.title {
+		text-align: center;	
+		padding-left: 45px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -89,19 +110,8 @@
     	font-size: 20px;
 	}
 
-	.title {
-		text-align: center;	
-		padding-left: 45px;
-		margin-bottom: 30px;
-	}
-
 	.title.-center {
-		padding-right: 0px;
-	}
-
-	.block {
-		padding-right: 10px;
-		padding-left: 10px;
+		padding: 0px;
 	}
 
 }
@@ -116,24 +126,24 @@
 
 @media screen and (max-width: 1120px) {
 	
-.subunit {
-	padding-top: 17px;
-	padding-left: 19px;
-	width: 265px;
-    height: 150px;
-}
+	.subunit {
+		padding-top: 17px;
+		padding-left: 19px;
+		width: 265px;
+	    height: 150px;
+	}
 
-.block {
-	min-width: 558px;
-}
+	.block {
+		min-width: 558px;
+	}
 
-.who {
-	margin-right: 15px;
-}
+	.contant {
+		min-width: 450px;
+	}
 
-.block.-wrap {
-	min-width: none;
-}
+	.block.-wrap {
+		min-width: none;
+	}
 }
 
 @media screen and (max-width: 1020px) {
@@ -153,17 +163,15 @@
 }
 
 .block.-wrap {
-	display: block;
+	    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bg {
 	padding-top: 50px;
 	height: 535px;
 	background-position-x: 7%;
-}
-
-.who {
-	margin-bottom: 30px;
 }
 
 .subunit {
@@ -173,13 +181,8 @@
     height: 216px;
 	width: 380px;
 }
-
-.who {
-    margin-left: 135px;
-}
-
 .bg {
-	height: 840px;
+	height: 950px;
 	background-position-x: 43%;
 }
 
