@@ -148,10 +148,9 @@
 
 @media screen and (max-width: 1020px) {
 
-.bg {
-	padding-left: 
-}
-
+	.bg {
+		padding-left: 
+	}
 }
 
 @media screen and (max-width: 574px) {
@@ -163,9 +162,8 @@
 }
 
 .block.-wrap {
-	    display: flex;
+	display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .bg {
@@ -182,7 +180,7 @@
 	width: 380px;
 }
 .bg {
-	height: 950px;
+	height: 980px;
 	background-position-x: 43%;
 }
 
