@@ -6,12 +6,22 @@
 .container.-flex {
 	align-items: center;
 	display: flex;
-	justify-content: space-evenly;
 	margin-bottom: 125px;
+}
+
+.container-.noflex {
+	width: 1000px;
+	justify-content: space-evenly;
+	display: block;
 }
 
 .container.-smoll {
 	width: 950px;
+}
+
+.o {
+	justify-content: space-around;
+	display: flex;
 }
 
 @media screen and ( max-width: 1120px ) {
