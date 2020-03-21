@@ -72,6 +72,11 @@
 		max-width: 300px;
 	}
 
+	.container.-width {
+		width: 320px;
+	}
+
+
 	.hero__circle {
     	left: 90px;
    		top: 487px;
