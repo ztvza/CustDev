@@ -1,0 +1,44 @@
+
+.section.-bg {
+	background-image: url("../img/Rectangle.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	padding-top: 50px;
+	background-position-x: 16%;
+}
+
+.section.-result {
+	background-image: url("../img/result.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 820px;
+	padding-top: 50px;
+	background-position-x: 16%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+
+	.section.-bg {
+		background-position-x: 8%; 
+		padding-left: 30px; 
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+
+	.section.-result{
+		height: 1300px;
+	}
+}
+
+@media screen and (max-width: 574px) {
+	
+	.section.-bg {
+		height: 780px;
+		background-position-x: 43%;
+	}
+}

@@ -1,0 +1,37 @@
+.title {
+	padding-right: 45px;
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+.title.-center {
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+
+.title.-center.-c{
+	text-align: center;
+}
+
+.title.-white {
+	color: white;
+	margin-bottom: 30px;
+	margin-left: 75px;
+}
+
+@media screen and (max-width: 790px) {
+
+	.title.-white {
+		margin-left: 0px;
+	}
+
+}
+
+@media screen and (max-width: 902px) {
+
+	.title {
+		text-align: center;	
+		padding-left: 45px;
+		margin-bottom: 30px;
+	}
+}
