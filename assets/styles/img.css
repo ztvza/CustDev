@@ -3,3 +3,21 @@
 	width: 50px;
 	height: 50px;
 }
+
+.img.-me {
+	border-radius: 10px;
+}
+
+@media screen and ( max-width: 902px ){
+	
+	.img.-me {
+		max-width: 80%;	
+	}
+}
+
+@media screen and ( max-width: 790px ){
+
+	.img.-me {
+		max-width: 100%;
+	}
+}

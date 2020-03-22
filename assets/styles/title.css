@@ -2,6 +2,7 @@
 	padding-right: 45px;
 	font-size: 30px;
 	line-height: 1.5;
+	margin-bottom: 20px;
 }
 
 .title.-center {
@@ -34,4 +35,18 @@
 		padding-left: 45px;
 		margin-bottom: 30px;
 	}
+
+	.title.-white {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 464px) {
+
+	.title {
+		text-align: center;	
+		padding-right:0px;
+		padding-left: 0px;
+	}
+
 }

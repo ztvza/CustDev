@@ -1,0 +1,110 @@
+.subunit {
+	margin-bottom: 30px;
+	padding-top: 34px;
+	padding-bottom: 34px;
+	padding-left: 54px; 
+	text-align: left;
+	background: #FFFFFF;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+	width: 313px;
+	height: 190px;	
+}
+
+.subunit.-padding {
+	padding: 40px;
+	height: 190px;
+}
+
+.subunit.-padding.-none {
+	display: none;
+}
+
+.subunit.-big {
+	display: flex;
+	width: 435px;
+	height: 220px;
+	padding: 25px;
+	padding-top: 30px;
+	margin-right: 15px;
+}
+
+.subunit.-center {
+	padding: 60px;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+
+	.subunit {
+		padding-top: 17px;
+		padding-left: 19px;
+		width: 265px;
+	    height: 150px;
+	}
+
+	.subunit.-center {
+		padding-top: 15px;
+    	padding-left: 10px;
+    	padding-right: 0px;
+    	padding-bottom: 5px;
+	}
+}
+
+@media screen and (max-width: 902px) {
+
+		.subunit.-padding {
+		height: 140px;
+    	padding: 20px;
+	}
+
+		.subunit.-big {
+		width: 360px;
+	}
+}
+
+@media screen and (max-width: 790px) {
+
+	.subunit.-padding {
+    	display: none;
+	}
+
+	.subunit.-padding.-none {
+    	display: block;
+    	height: 130px;
+    	width: 200px;
+    	margin-left: 10px;
+	}
+
+	.subunit.-big {
+		padding: 20px;
+		margin-right: 0px;
+		width: 95%;
+	}
+	
+	.subunit.-center {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 574px) {
+
+	.subunit {
+		padding-top: 40px;
+	    padding-left: 41px;
+	    padding-right: 41px;
+	    height: 216px;
+		width: 380px;
+	}
+
+	.subunit.-padding.-none {
+    	display: none;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	
+	.subunit {
+		width: 310px;
+	}
+}
