@@ -27,6 +27,7 @@
 
 .flex.-center {
 	align-items: center;
+	margin-bottom: 40px;
 }
 
 @media screen and ( max-width: 1120px ) {
