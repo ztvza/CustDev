@@ -19,6 +19,14 @@
 	padding-bottom: 100px;
 }
 
+.section.-coment {
+	background-image: url("../img/coment.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 950px;
+	padding-top: 100px;
+}
+
 @media screen and (max-width: 767px) {
 
 	.section.-bg {
@@ -40,5 +48,10 @@
 	.section.-bg {
 		height: 780px;
 		background-position-x: 43%;
+	}
+}
+@media screen and (max-width: 574px) {
+	.section.-coment {
+		height: : 1160px;
 	}
 }

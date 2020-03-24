@@ -30,6 +30,7 @@
 	margin-bottom: 40px;
 }
 
+
 @media screen and ( max-width: 1120px ) {
 
 	.container { 
@@ -49,6 +50,10 @@
 
 	.container.-flex {
 		flex-direction: column;
+	}
+
+	.flex.-block {
+		justify-content: center;
 	}
 }
 
