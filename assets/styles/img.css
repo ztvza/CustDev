@@ -4,6 +4,10 @@
 	height: 50px;
 }
 
+.img.-gallery{
+	max-width: 24%;
+}
+
 .img.-people{
 	width: 70px;
 	height: 70px;

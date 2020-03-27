@@ -34,7 +34,7 @@
 .header__link {
 	font-size: 15px;
 	color: white;
-	margin-right: 17px;
+	margin-right: 9px;
 }
 
 .header__actions {
@@ -75,6 +75,10 @@
     .header__link {
     	margin-right: 7px; 
     }
+
+    .header__nav {
+		display: none;
+	}
 }
 
 
@@ -85,10 +89,6 @@
 	}
 
 	.header__link.-up.-none {
-		display: none;
-	}
-
-	.header__nav {
 		display: none;
 	}
 

@@ -26,7 +26,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 550px;
-	justify-content: space-evenly;
+	justify-content: end;
 }
 
 .underline.-none {
@@ -56,7 +56,7 @@
 }
 
 .text {
-	margin-top: 15px;	
+	margin-top: 10px;	
 	color: #636363;
 	line-height: 143.55%;	
 }
@@ -91,11 +91,13 @@
 	}
 
 	.underline {
-		margin:0px;
+    	margin-top: 15px;
+    	margin-left: 0px;
 	}
 
 	.who {
     	width: 152px;
+    	margin-top: 10px;
 	}
 
 	.interest.-smoll {
@@ -115,7 +117,6 @@
 	}
 
 	.underline.-none {
-		margin-left: 20px;
 		width: 150px;
 		height: 45px;
 		display: block;

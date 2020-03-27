@@ -23,12 +23,23 @@
 	text-align: center;
 }
 
+.hero__circle.-position {
+	left: 950px;
+	top: 4750px;
+}
+
+
 @media screen and (max-width: 1300px ){
 
 	.circle {
 		width: 150px;
 		height: 150px;
 		left: 900px;
+	}
+
+	.hero__circle.-position {
+		left: 650px;
+		top: 4700px;
 	}
 
 }
@@ -44,6 +55,13 @@
 	.hero__circle {
 		left: 45px;
 		top: 417px;
+	}
+}
+
+@media screen and (max-width: 902px ){
+
+	.hero__circle.-position {
+		display: none;
 	}
 }
 

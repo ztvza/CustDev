@@ -27,11 +27,17 @@
 	padding-top: 100px;
 }
 
+
+@media screen and (max-width: 902px) {
+	.section.-coment {
+		height: 1170px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 
 	.section.-bg {
 		background-position-x: 8%; 
-		padding-left: 30px; 
 		height: 600px;
 	}
 }
@@ -45,13 +51,11 @@
 
 @media screen and (max-width: 574px) {
 	
+	.section.-coment {
+		height: : 1160px;
+	}
 	.section.-bg {
 		height: 780px;
 		background-position-x: 43%;
-	}
-}
-@media screen and (max-width: 574px) {
-	.section.-coment {
-		height: : 1160px;
 	}
 }
