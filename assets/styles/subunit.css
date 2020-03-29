@@ -1,5 +1,5 @@
 .subunit {
-	margin-bottom: 30px;
+	margin-bottom: 12px;
 	padding-top: 34px;
 	padding-bottom: 34px;
 	padding-left: 54px; 
@@ -114,6 +114,7 @@
 		padding: 20px;
 		margin-right: 0px;
 		width: 95%;
+		height: 100%;
 	}
 	
 	.subunit.-center {
