@@ -22,6 +22,10 @@
 	display: flex;
 }
 
+.none.-center {
+	justify-content: center;
+}
+
 .content {
 	display: flex;
 	flex-wrap: wrap;
@@ -37,22 +41,14 @@
 	width: 200px;
 }
 
-.subtitle{
-	font-size: 16px;
-	color: #2F80ED;
-}
-
-.subtitle.-gray {
-	color: #565656;
-}
-
 .interest {
 	color: #2F80ED;
 	font-size: 24px;
 }
 
 .interest.-smoll {
-	font-size: 18px;
+	font-size: 20px;
+	text-align: center;
 }
 
 .text {
@@ -83,6 +79,7 @@
 @media screen and (max-width: 902px) {
 
 	.block.-wrap {
+		width: 635px;
 		flex-wrap: unset;
 	}
 
@@ -134,6 +131,7 @@
 @media screen and (max-width: 767px) {
 
 	.block.-wrap {
+		width: auto;
 		flex-wrap: wrap;
     	justify-content: space-around;
 	}

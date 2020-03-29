@@ -6,7 +6,16 @@
 	border: rgba(100, 226, 205, 0.5);
 	color: white;
 	box-shadow: 0px 0px 0 10px rgba(100, 226, 205, 0.5);
-	
+}
+
+.button.-shadow {
+	box-shadow: none;
+	width: 150px;
+	margin-top: 25px;
+}
+
+.button.-shadow.-margin {
+	margin: 0px;
 }
 
 .button.-light {
@@ -30,5 +39,11 @@
 
 	.button.-light.-none.-white {
 		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 464px ){
+	.button.-shadow {
+		margin-left: 55px;
 	}
 }
