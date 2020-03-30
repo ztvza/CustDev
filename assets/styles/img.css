@@ -30,6 +30,16 @@
 	border-radius: 10px;
 }
 
+.img.-mean {
+	height: 70px;
+	width: 70px;
+}
+
+.img.-book {
+	width: 110px;
+	height: 90px;
+}
+
 .img.-people.-block2 {
 	display: none;
 }
