@@ -37,7 +37,26 @@
 	height: 1070px;
 	background-size: cover;
 }
+.section.-form {
+	background-color: rgba(47, 128, 237, 0.05);
+	height: 200px;
+	margin-bottom: 0px;
+	padding-top: 80px;
+}
 
+.section.-blue {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #2F80ED;
+	margin-top: 0px;
+	height: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+	.section.-options {
+		height: 850px;
+	}
+}
 
 @media screen and (max-width: 902px) {
 	.section.-coment {
@@ -72,5 +91,15 @@
 	
 	.section.-options {
 		height: 1000px;
+	}
+
+	.section.-form{
+		height: 225px;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	.section.-blue {
+	    height: 190px;
 	}
 }

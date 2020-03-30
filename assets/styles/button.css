@@ -28,6 +28,15 @@
 	color: #2F80ED;
 }
 
+.button.-width {
+	width: 200px;
+	box-shadow: none;
+}
+
+.button.-light.-none.-white.-block {
+	display: none;
+}
+
 @media screen and ( max-width: 767px ) {
 
 	.button.-light.-none {
@@ -40,10 +49,36 @@
 	.button.-light.-none.-white {
 		margin-left: 0px;
 	}
+
+	.button.-light.-none.-white.-LIF {
+    	display: block;
+	}
+}
+
+
+@media screen and (max-width: 1120px ){
+	.button.-width {
+		margin-top: 5px;
+		margin-right: 20px;
+	}
 }
 
 @media screen and (max-width: 464px ){
 	.button.-shadow {
 		margin-left: 55px;
+	}
+
+	.button.-width {
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.button.-light.-none.-white.-block {
+		display: initial;
+		margin-top: 10px;	
+	}
+
+	.button.-light.-none.-white.-LIF {
+    	display: none;
 	}
 }

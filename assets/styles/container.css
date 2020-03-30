@@ -1,7 +1,6 @@
 .container {
 	width: 1100px;
 	margin: 0 auto;
-	margin-bottom: 100px;
 }
 
 .container.-flex {
@@ -23,6 +22,7 @@
 .flex {
 	justify-content: space-around;
 	display: flex;
+	align-items: center;
 }
 
 .flex.-center {
@@ -86,9 +86,13 @@
 		width: 320px;
 	}
 
-
 	.hero__circle {
     	left: 90px;
    		top: 487px;
+	}
+
+	.flex.-none {
+		display: block;
+		text-align: center;
 	}
 }

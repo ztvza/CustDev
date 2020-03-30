@@ -57,6 +57,10 @@
 	line-height: 143.55%;	
 }
 
+.form {
+	display: flex;
+}
+
 @media screen and (max-width: 1120px) {
 
 	.block {
@@ -180,5 +184,11 @@
 
 	.underline.-none {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 464px ) {
+	.input {
+		width: 100%;
 	}
 }
