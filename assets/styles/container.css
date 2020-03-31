@@ -11,7 +11,7 @@
 
 .container-.noflex {
 	width: 1000px;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	display: block;
 }
 
