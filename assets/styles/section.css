@@ -6,15 +6,13 @@
 
 .section.-bg {
 	background-image: url("../img/Rectangle.png");
-	background-size: cover;
 	height: 600px;
 	background-position-x: 16%;
 }
 
 .section.-result {
 	background-image: url("../img/result.png");
-	background-size: cover;
-	height: 104ch;
+	height: 104vh;
 	background-position-x: 16%;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -22,7 +20,6 @@
 
 .section.-coment {
 	background-image: url("../img/coment.png");
-	background-size: cover;
 	height: 950px;
 }
 
