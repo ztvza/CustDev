@@ -32,7 +32,9 @@
 	background-image: url("../img/options1.png");
 	height: 1070px;
 }
+
 .section.-form {
+	position: relative;
 	background-color: rgba(47, 128, 237, 0.05);
 	height: 200px;
 	margin-bottom: 0px;

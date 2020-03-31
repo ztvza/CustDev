@@ -62,6 +62,10 @@
 	padding: 0px;
 }
 
+.subunit.-sale.-relativ {
+	position: relative;
+}
+
 .subunit.-sale:last-child {
 	margin-right: 0px;
 }

@@ -33,15 +33,25 @@
 	right: 200px;
 }
 
-.blue.-circle {
+.circle.-form {
 	position: absolute;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 	filter: blur(20px);
-	width: 150px;
-	height: 150px;
-	top: 7400px;
-	left: 50px;
+	width: 120px;
+	height: 120px;
+	top: -50px;
+	left: 10px;
+}
+
+.ellipse {
+	position: absolute;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	top: -15px;
+	left: 160px;
+	background-color: #2F80ED;
 }
 
 
@@ -68,14 +78,17 @@
 		top: 1100px;
 	} 
 
+	.ellipse {
+		display: block;
+	}
+
+	.circle.-form {
+		display: block;
+	}
+
 	.hero__circle {
 		left: 45px;
 		top: 417px;
-	}
-
-	.blue.-circle {
-		top: 6810px;
-		left: 50px;
 	}
 }
 
@@ -85,17 +98,12 @@
 		display: none;
 	}
 
-	.blue.-circle {
-		top: 6800px;
-		left: 50px;
+	.circle.-blue {
+		display: block;
 	}
 }
 
 @media screen and (max-width: 790px ){
-	.blue.-circle {
-		top: 7100px;
-		left: 10px;
-	}
 }
 
 @media screen and (max-width: 767px ){
@@ -105,21 +113,11 @@
 		top: 482px;
 	}
 
-	.blue.-circle {
-		top: 7450px;
-	}
 } 
 
 @media screen and (max-width: 574px ){
-	.blue.-circle {
-		width: 100px;
-		height: 100px;
-		top: 9250px;
-	}
 }
 
 @media screen and ( max-width: 464px ){
-	.blue.-circle {
-		top: 9950px;
-	}	
+
 }
