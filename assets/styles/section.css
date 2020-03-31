@@ -1,5 +1,5 @@
 .section {
-	margin-top: 70px;
+	margin-top: 50px;
 	padding-top: 50px;
 	background-repeat: no-repeat;
 }
@@ -12,7 +12,7 @@
 
 .section.-result {
 	background-image: url("../img/result.png");
-	height: 104vh;
+	height: 126vh;
 	background-position-x: 16%;
 	padding-top: 100px;
 	padding-bottom: 100px;
