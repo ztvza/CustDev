@@ -74,7 +74,7 @@
 	}
 
 	.blue.-circle {
-		top: 7010px;
+		top: 6810px;
 		left: 50px;
 	}
 }
@@ -86,14 +86,14 @@
 	}
 
 	.blue.-circle {
-		top: 7000px;
+		top: 6800px;
 		left: 50px;
 	}
 }
 
 @media screen and (max-width: 790px ){
 	.blue.-circle {
-		top: 7300px;
+		top: 7100px;
 		left: 10px;
 	}
 }
@@ -106,7 +106,7 @@
 	}
 
 	.blue.-circle {
-		top: 7650px;
+		top: 7450px;
 	}
 } 
 
@@ -114,12 +114,12 @@
 	.blue.-circle {
 		width: 100px;
 		height: 100px;
-		top: 9450px;
+		top: 9250px;
 	}
 }
 
 @media screen and ( max-width: 464px ){
 	.blue.-circle {
-		top: 10150px;
+		top: 9950px;
 	}	
 }

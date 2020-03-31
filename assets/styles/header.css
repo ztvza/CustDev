@@ -21,10 +21,10 @@
 	align-items: center;
 	display: flex;
 	margin-left: 94px;
-
 }
 
 .triangle {
+	margin-top: 8px;
 	border: 3.5px solid transparent;
 	border-top: 7px solid white;
 	width: 0;

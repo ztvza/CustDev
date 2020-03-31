@@ -7,13 +7,12 @@
 .section.-bg {
 	background-image: url("../img/Rectangle.png");
 	height: 600px;
-	background-position-x: 16%;
+	background-position-x: right;
 }
 
 .section.-result {
 	background-image: url("../img/result.png");
 	height: 126vh;
-	background-position-x: 16%;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -32,7 +31,6 @@
 .section.-options {
 	background-image: url("../img/options1.png");
 	height: 1070px;
-	background-size: cover;
 }
 .section.-form {
 	background-color: rgba(47, 128, 237, 0.05);
@@ -52,13 +50,22 @@
 @media screen and (max-width: 1120px) {
 	.section.-options {
 		height: 850px;
+		background-size: cover;
 	}
 }
 
 @media screen and (max-width: 902px) {
+	
 	.section.-coment {
+		background-size: cover;
+		background-position-x: 10%;
 		height: 1000px;
 	}
+
+	.section.-form {
+		padding-top: 50px;
+	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -73,6 +80,7 @@
 
 	.section.-result{
 		height: 930px;
+		background-size: cover;
 	}
 }
 
@@ -81,6 +89,7 @@
 	.section.-bg {
 		height: 780px;
 		background-position-x: 43%;
+		background-size: cover;
 	}
 	
 	.section.-options {
@@ -93,7 +102,11 @@
 }
 
 @media screen and (max-width: 464px) {
+	
 	.section.-blue {
 	    height: 190px;
 	}
+	.section.-result {
+    	height: 1040px;
+    }
 }

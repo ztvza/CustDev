@@ -25,9 +25,17 @@
 	align-items: center;
 }
 
+.flex.-none {
+	justify-content: space-between;
+}
+
 .flex.-center {
 	align-items: center;
 	margin-bottom: 40px;
+}
+
+.container.-full-width {
+	width: 100%;
 }
 
 
@@ -36,6 +44,10 @@
 	.container { 
 		max-width: 890px;
 	 }
+
+	.container.-full-width {
+		max-width: 100%;
+	}
 }
 
 @media screen and ( max-width: 902px ) {
