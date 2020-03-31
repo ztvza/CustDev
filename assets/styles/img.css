@@ -18,12 +18,16 @@
 
 .img.-people.-m {
 	background-position-x:  45%;
-	background-image: url("../img/smoll/image10.png");
+	background-image: url("../img/smoll/image11.png");
 }
 
-.img.-people.-block2{
-	background-image: url("../img/smoll/image11.png");
+.img.-people.-block2 {
+	background-image: url("../img/smoll/image10.png");
 	background-position-x: 45%; 
+}
+.img.-people.-none.-block {
+	background-position-x:  45%;
+	background-image: url("../img/smoll/image10.png");
 }
 
 .img.-me {
@@ -42,6 +46,12 @@
 
 .img.-people.-block2 {
 	display: none;
+}
+
+@media screen and ( max-width: 1120px ){
+	.img.-people.-none.-block {
+		margin-left: 10px;
+	}
 }
 
 @media screen and ( max-width: 902px ){
