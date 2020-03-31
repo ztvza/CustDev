@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 902px) {
 	.section.-coment {
-		height: 1170px;
+		height: 1000px;
 	}
 }
 
@@ -78,9 +78,6 @@
 
 @media screen and (max-width: 574px) {
 	
-	.section.-coment {
-		height: 1160px;
-	}
 	.section.-bg {
 		height: 780px;
 		background-position-x: 43%;
