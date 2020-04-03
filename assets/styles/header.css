@@ -19,6 +19,10 @@
 	color: #2F80ED;
 } 
 
+.header__link.-up.-white{
+	color: white;
+}
+
 .header__cities {
 	align-items: center;
 	display: flex;
