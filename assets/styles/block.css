@@ -15,7 +15,11 @@
 	color: #2F80ED;
 	padding-bottom: 3px;
 	font-size: 14px;
-	margin-left: 90px;
+	margin-left: 50px;
+}
+
+.underline.-none {
+	display: none;
 }
 
 .none {
@@ -30,11 +34,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 550px;
-	justify-content: end;
-}
-
-.underline.-none {
-	display: none;
+	justify-content: space-around;
 }
 
 .who {
@@ -48,13 +48,19 @@
 
 .interest.-smoll {
 	font-size: 20px;
-	text-align: center;
 }
 
 .text {
 	margin-top: 10px;	
 	color: #636363;
 	line-height: 143.55%;	
+}
+
+.text.-white {
+	margin: 0px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
 }
 
 .form {
@@ -94,7 +100,7 @@
 
 	.underline {
     	margin-top: 15px;
-    	margin-left: 0px;
+    	margin-left: 12px;
 	}
 
 	.who {
@@ -119,8 +125,7 @@
 	}
 
 	.underline.-none {
-		width: 150px;
-		height: 45px;
+		height: 25px;
 		display: block;
 	}
 

@@ -8,6 +8,7 @@
 	background-image: url("../img/Rectangle.png");
 	height: 600px;
 	background-position-x: right;
+	position: relative;
 }
 
 .section.-result {
@@ -18,11 +19,13 @@
 }
 
 .section.-coment {
+	position: relative;
 	background-image: url("../img/coment.png");
 	height: 950px;
 }
 
 .section.-sale {
+	position: relative;
 	background-image: url("../img/sale.png");
 	height: 100%;
 	background-position-x: 50%; 
@@ -99,7 +102,7 @@
 	}
 
 	.section.-form{
-		height: 300px;
+		height: 200px;
 	}
 }
 
@@ -108,7 +111,12 @@
 	.section.-blue {
 	    height: 190px;
 	}
+
 	.section.-result {
     	height: 1040px;
     }
+
+    .section.-form{
+		height: 300px;
+	}
 }

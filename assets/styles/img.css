@@ -5,7 +5,8 @@
 }
 
 .img.-gallery {
-	max-width: 24%;
+	margin-bottom: 0px;
+	width: 25%;
 }
 
 .img.-people {
@@ -32,6 +33,10 @@
 
 .img.-me {
 	border-radius: 10px;
+}
+
+.img.-me.-max {
+	max-width: 100%;
 }
 
 .img.-mean {
@@ -79,8 +84,7 @@
 @media screen and (max-width: 464px ){
 
 	.img.-gallery {
-    	max-width: 46%;
-    	height: 110px;
+		min-width: 50%;
 	}
 
 }

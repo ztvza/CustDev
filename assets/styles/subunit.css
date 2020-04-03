@@ -13,12 +13,14 @@
 }
 
 .subunit.-padding {
+	position: relative;
 	padding: 40px;
 	height: 190px;
 }
 
 .subunit.-padding.-none {
 	display: none;
+	position: relative;
 }
 
 .subunit.-big {
@@ -81,9 +83,11 @@
 
 	.subunit.-center {
 		padding-top: 15px;
-    	padding-left: 10px;
+    	padding-left: 24px;
     	padding-right: 0px;
     	padding-bottom: 5px;
+    	text-align: left;
+ 	    height: 112px;
 	}
 }
 
