@@ -21,11 +21,11 @@ form {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 input {
-	width: 240px;
+	width: 255px;
 	margin-right: 30px;
 	padding: 10px;
 }
@@ -37,6 +37,13 @@ input {
 		margin-top: 5px;
 	}
 }
+
+@media screen and (max-width: 902px ){
+	form {
+		justify-content: center;
+	}
+}
+
 @media screen and (max-width: 464px ){
 	input {
 		margin-right: 0px;

@@ -15,7 +15,7 @@
 	color: #2F80ED;
 	padding-bottom: 3px;
 	font-size: 14px;
-	margin-left: 50px;
+	margin-left: 85px;	
 }
 
 .underline.-none {
@@ -85,6 +85,10 @@
 	.content {
 		width: 450px;
 	}
+
+	.underline {
+		margin-left: 50px;
+	}
 }
 
 @media screen and (max-width: 902px) {
@@ -135,6 +139,14 @@
 
 	.title.-center {
 		padding: 0px;
+	}
+
+	.content {
+		justify-content: space-between;
+	}
+
+	.underline {
+		margin-left: 0px;
 	}
 }
 

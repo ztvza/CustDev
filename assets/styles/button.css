@@ -57,10 +57,22 @@
 
 
 @media screen and (max-width: 1120px ){
+	
 	.button.-width {
 		margin-top: 5px;
 		margin-right: 20px;
 	}
+
+	.button.-width.-margin {
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 902px ){
+
+	.button.-width.-margin {
+		margin-right: 20px;
+	}	
 }
 
 @media screen and (max-width: 464px ){
