@@ -57,10 +57,6 @@
 
 @media screen and ( max-width: 1120px ) {
 
-	.hero {
-		background-position-x: 43%
-	}
-
 	.hero__info {
 		color: white;
 		margin-top: 29px;
@@ -72,7 +68,13 @@
 		margin-top: 18px;
 		margin-bottom: 21px;
 	}
+}
 
+@media screen and (max-width: 676px ) {
+	
+	.hero {
+		background-position-x: 43%
+	}
 }
 
 @media screen and ( max-width: 767px ) {
